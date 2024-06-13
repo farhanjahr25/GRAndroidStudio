@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Gender Input -->
+    <EditText
+        android:id="@+id/genderInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter gender"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <!-- Age Input -->
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <!-- Weight Input -->
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <!-- Height Input -->
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter height"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorHint" />
+
+    <!-- Predict Button -->
+    <Button
+        android:id="@+id/predictButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict"
+        android:textColor="@android:color/white"
+        android:background="?attr/colorAccent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Result Text -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="?android:textColorPrimary"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
